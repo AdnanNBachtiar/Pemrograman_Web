@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Qiuz</title>
+</head>
+<body>
+    <!-- judul -->
+    <h1>PHP Form Validation</h1>
+    <font color="red">*reqiured field.</font> <br><br>
+
+    <!-- form yang akan diisi -->
+    <form action="quiz.php" method="post" name="data">
+
+        <!-- form nama -->
+            name : <input type="text" name="nama"><font color="red">*</font><br><br>
+
+            <!-- form email -->
+            E-mail : <input type="text" name="email"><font color="red">*</font><br><br>
+
+            <!-- form website -->
+            Website : <input type="text" name="website"><br><br>
+
+            <!-- form coment -->
+            Coment :<textarea name="coment" cols="50" rows="10"></textarea><br><br>
+
+            <!-- form Gender -->
+            gender : <input type="radio" name="gender" value="Male" checked> Male 
+            <input type="radio" name="gender" value="Female"> Female <font color="red">*</font><br><br>
+
+            <!-- tombol submit -->
+            <input type="submit" name="Input" value="Submit">
+
+        </form>
+    </form>
+</body>
+</html>
